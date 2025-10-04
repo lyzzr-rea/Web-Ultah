@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hi, HBD!</title>
+    <meta
+      name="description"
+      content="A vibrant comic-book styled portfolio showcasing amazing design work"
+    />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bangers&family=Comic+Neue:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <nav class="nav-container">
+        <div class="logo">
+          <h1 class="logo-text">🎂</h1>
+        </div>
+        <ul class="nav-menu">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#about" class="nav-link">Ucapan</a></li>
+          <li><a href="#contact" class="nav-link">HBD!</a></li>
+        </ul>
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-container">
+        <div class="hero-content">
+          <div class="speech-bubble hero-bubble">
+            <h1 class="hero-title">Selamat Ulang Tahun</h1>
+            <p class="hero-subtitle">
+              Tidak Disangka Udah Lama ya Sejak Pertama kali ada di dunia ini
+            </p>
+          </div>
+          <div class="hero-image">
+            <img
+              src="https://sdmntprwestus3.oaiusercontent.com/files/00000000-8870-61fd-83a2-cec6ae6b88a4/raw?se=2025-10-04T06%3A40%3A06Z&sp=r&sv=2024-08-04&sr=b&scid=f891884a-3e8c-5596-836d-eae0aaee2ddd&skoid=9063adf3-a524-4acf-b70a-8731b33f2f50&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-10-03T23%3A23%3A23Z&ske=2025-10-04T23%3A23%3A23Z&sks=b&skv=2024-08-04&sig=xtjslIPfjTYSHSU8ovMSaCtNy4M5b6SVpY7mt%2Bltkek%3D"
+              alt="Comic Designer Character"
+              class="character-img"
+            />
+          </div>
+          <div class="speech-bubble hero-bubble-2">
+            <p>Sudah Siap?</p>
+          </div>
+        </div>
+        <div class="hero-action">
+          <button
+            class="comic-button btn-primary"
+            onclick="scrollToSection('projects')"
+          >
+            <span>Tolong Geser kebawah</span>
+            <i class="fas fa-rocket"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Ucapan</h2>
+          <div class="comic-divider"></div>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-panel comic-panel">
+            <div class="panel-header">
+              <h3 class="panel-title">🎂</h3>
+            </div>
+            <div class="panel-content">
+              <p>
+                Ciee ada yang makin tua nih.. gimana perasaanmu dihari ulang
+                tahunmu ini? Semoga semua doa dan harapanmu terkabul di tahun
+                ini. Semoga di usiamu yang baru ini, kamu selalu diberikan
+                kesehatan, kebahagiaan, dan kesuksesan. Ingat, usia hanyalah
+                angka, yang terpenting adalah bagaimana kamu menjalani hidup
+                dengan penuh makna. Jangan pernah takut untuk bermimpi besar dan
+                mengejar apa yang kamu inginkan.
+              </p>
+              <p>
+                Teruslah menjadi pribadi yang baik dan selalu bersemangat dalam
+                menjalani hidup. Ingatlah bahwa kamu selalu dicintai dan
+                dihargai oleh orang-orang di sekitarmu. Jangan lupa untuk selalu
+                bersyukur atas segala hal yang telah kamu miliki. Semoga hari
+                ulang tahunmu dipenuhi dengan kebahagiaan dan kenangan indah.
+                Selamat bertambah usia!
+              </p>
+            </div>
+          </div>
+
+          <div class="skills-panel comic-panel">
+            <div class="panel-header">
+              <h3 class="panel-title">Selamat Ulang Tahun</h3>
+            </div>
+            <div class="skills-grid">
+              <div class="skill-badge">
+                <span>🧸✨</span>
+              </div>
+              <div class="skill-badge">
+                <span>🎉🥳</span>
+              </div>
+              <div class="skill-badge">
+                <span>🥞</span>
+              </div>
+              <div class="skill-badge">
+                <span>💭🧋</span>
+              </div>
+              <div class="skill-badge">
+                <span>Sehat</span>
+              </div>
+              <div class="skill-badge">
+                <i class="fas fa-palette"></i>
+                <span>Selalu</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">HBD!</h2>
+          <div class="comic-divider"></div>
+        </div>
+
+        <div class="contact-content">
+          <div class="contact-info comic-panel">
+            <div class="speech-bubble contact-bubble">
+              <h3>Ready for an adventure?</h3>
+              <p>
+                Let's create something AMAZING together! Drop me a message and
+                let's discuss your next super project.
+              </p>
+            </div>
+
+            <div class="contact-details">
+              <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <span>Lyziqn@Gmail.com</span>
+              </div>
+              <div class="contact-item">
+                <i class="fas fa-phone"></i>
+                <span>+62 123 4567 8901</span>
+              </div>
+              <div class="contact-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>Tg.Batu Kota, Karimun</span>
+              </div>
+            </div>
+
+            <div class="social-links">
+              <a href="#" class="social-link"
+                ><i class="fab fa-youtube"></i
+              ></a>
+              <a href="#" class="social-link"><i class="fab fa-whatsapp"></i></a>
+              <a href="#" class="social-link"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+
+          <form class="contact-form comic-panel" id="contactForm">
+            <div class="form-group">
+              <label for="name">Nama</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div class="form-group">
+              <label for="subject">Dari</label>
+              <input type="text" id="subject" name="subject" required />
+            </div>
+            <div class="form-group">
+              <label for="message">Pesan</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="comic-button btn-primary">
+              <span>KIRIM</span>
+              <i class="fas fa-paper-plane"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-panel comic-panel">
+            <p>Made with a coffee!</p>
+          </div>
+          <div class="footer-panel comic-panel">
+            <p>Thanks for visiting</p>
+          </div>
+          <div class="footer-panel comic-panel">
+            <p>© 2025 Lyziqn</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+  </body>
+</html>
